@@ -68,7 +68,7 @@ RUN \
     pip --no-cache-dir install --upgrade \
       pip setuptools \
       pyopenssl babel \
-      flask flask-babel flask-login flask-principal \
+      flask flask-babel flask-login flask-principal flask-dance \
       iso-639 pypdf2 pytz requests \
       sqlalchemy tornado wand unidecode \
     ### OPTIONAL ###
