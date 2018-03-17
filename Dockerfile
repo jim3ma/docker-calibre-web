@@ -169,7 +169,7 @@ RUN \
     rm -rf /var/cache/apk/*
 
 # install calibre binary
-ENV LD_LIBRARY_PATH $LD_LIBRARY_PATH:/opt/calibre/lib
+ENV LD_LIBRARY_PATH /usr/lib:/opt/calibre/lib
 ENV PATH $PATH:/opt/calibre/bin
 ENV LC_ALL C
 ENV CALIBRE_INSTALLER_SOURCE_CODE_URL https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py
